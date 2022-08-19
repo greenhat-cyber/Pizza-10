@@ -16,6 +16,8 @@ body {
     }
 }
 
+
+
 .navbar {
     height: 80px;
     
@@ -68,6 +70,13 @@ body {
     }
 }
 
+.mobnav{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    position: relative;
+    top: 5rem;
+}
 /* .glass{
     width: 1519px;
     height:800px;
