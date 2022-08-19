@@ -111,3 +111,8 @@ body {
 .zoom:hover {
     transform: scale(1.1);
 }
+
+.al{
+    position: relative;
+    left: 8rem;
+}
