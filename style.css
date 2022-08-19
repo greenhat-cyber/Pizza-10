@@ -1,6 +1,7 @@
 * {
     font-family: 'Barlow Semi Condensed', sans-serif;
 
+
 }
 
 body {
@@ -17,6 +18,11 @@ body {
 
 .navbar {
     height: 80px;
+    
+}
+
+.gl{
+    color: red !important;
 }
 
 .brand {
