@@ -12,8 +12,27 @@ body {
 @media only screen and (max-width: 992px) {
     div.mob {
         display: none;
+        
 
     }
+
+    div.mobnav{
+        width: 100%;
+        height: 80px;
+        background-color: #fff;
+        position:fixed;
+        bottom:0;
+        left:0;
+        right:0;
+        z-index:1000;
+        box-shadow: 0 -2px 5px -2px #333;
+    }
+}
+@media only screen and (min-width: 992px) {
+    div.mobnav{
+        display: none;
+    }
+
 }
 
 
@@ -23,9 +42,6 @@ body {
     
 }
 
-.gl{
-    color: red !important;
-}
 
 .brand {
     font-family: 'Yantramanav', sans-serif;
@@ -70,13 +86,7 @@ body {
     }
 }
 
-.mobnav{
-    width: 100%;
-    height: 80px;
-    background-color: #fff;
-    position: relative;
-    top: 5rem;
-}
+
 /* .glass{
     width: 1519px;
     height:800px;
